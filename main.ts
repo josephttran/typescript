@@ -1,11 +1,20 @@
+let myVoid: void;
+let myNull: null;
+let myUndefined: undefined;
 let myString: string;
 let myNum: number;
 let myBool: boolean;
 let myVar: any;
-
 let strArr: string[];
 let numArr: Array<number>;
 let tupleNumStr: [string, number];
+
+myVoid = null;
+myVoid = undefined;
+myNull = null;
+myNull = undefined;
+myUndefined = null;
+myUndefined = undefined;
 
 myString = 'Hello Universe';
 myNum = 20;
