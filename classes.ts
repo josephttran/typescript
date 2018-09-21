@@ -25,3 +25,9 @@ let Bob = new Employee("Bob", 22, "remote");
 
 console.log(Bob.getInfo());
 
+abstract class Animal {
+  abstract makeSound(): void;
+  move(): void {
+    console.log("roaming...");
+  }
+}
